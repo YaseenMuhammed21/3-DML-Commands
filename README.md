@@ -12,22 +12,22 @@ This repository contains a collection of SQL queries designed to test and demons
 
 2. #### Table Structure
 
-The table Managers has the following structure:
+    The table Managers has the following structure:
 
-Manager_Id (INT): A unique identifier for each manager.
+    Manager_Id (INT): A unique identifier for each manager.
 
-First_name (VARCHAR): The first name of the manager.
+    First_name (VARCHAR): The first name of the manager.
 
-Last_name (VARCHAR): The last name of the manager.
+    Last_name (VARCHAR): The last name of the manager.
 
-DOB (DATE): The date of birth of the manager.
+    DOB (DATE): The date of birth of the manager.
 
-Age (INT): The age of the manager with a check constraint (must be greater than or equal to 18).
+    Age (INT): The age of the manager with a check constraint (must be greater than or equal to 18).
 
-Last_update (TIMESTAMP): The timestamp of the last update (defaults to the current time).
+    Last_update (TIMESTAMP): The timestamp of the last update (defaults to the current time).
 
-Gender (CHAR(1)): The gender of the manager with a constraint allowing 'M' (Male) or 'F' (Female) or 'O'(Others).
+    Gender (CHAR(1)): The gender of the manager with a constraint allowing 'M' (Male) or 'F' (Female) or 'O'(Others).
 
-Department (VARCHAR): The department where the manager works.
+    Department (VARCHAR): The department where the manager works.
 
-Salary (DECIMAL): The monthly salary of the manager (NOT NULL).
+    Salary (DECIMAL): The monthly salary of the manager (NOT NULL).
